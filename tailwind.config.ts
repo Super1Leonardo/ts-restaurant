@@ -32,9 +32,7 @@ const config: Config = {
       const utilities = Object.keys(scales).reduce((acc, key) => {
         acc[`.${e(`hover-scale-[${key}%]`)}`] = {
           transition: 'all 150ms cubic-bezier(0.4, 0, 0.2, 1)',
-          '&:hover': {
-            transform: `scale(${scales[key]})`,
-          },
+          '&:hover': `scale(${scales[key]})`
         };
         return acc;
       }, {} as Record<string, Record<string, string>>);
