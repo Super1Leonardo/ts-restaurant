@@ -1,0 +1,18 @@
+.hover-scale-105 {
+    @apply all 150ms cubic-bezier(0.4, 0, 0.2, 1) hover:scale-105
+}
+.hover-scale-110 {
+    @apply all 150ms cubic-bezier(0.4, 0, 0.2, 1) hover:scale-110
+}
+.hover-scale-115 {
+    @apply all 150ms cubic-bezier(0.4, 0, 0.2, 1) hover:scale-115
+}
+.hover-scale-120 {
+    @apply all 150ms cubic-bezier(0.4, 0, 0.2, 1) hover:scale-120
+}
+.hover-scale-125 {
+    @apply all 150ms cubic-bezier(0.4, 0, 0.2, 1) hover:scale-125
+}
+.hover-scale-130 {
+    @apply all 150ms cubic-bezier(0.4, 0, 0.2, 1) hover:scale-130
+}
