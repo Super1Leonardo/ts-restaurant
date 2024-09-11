@@ -37,6 +37,25 @@ h5 {
   font-size: 1.25rem;
 }
 
+.hover-scale-105 {
+  @apply transition-all duration-150 ease-in-out hover:scale-105
+}
+.hover-scale-110 {
+  @apply transition-all duration-150 ease-in-out hover:scale-110
+}
+.hover-scale-115 {
+  @apply transition-all duration-150 ease-in-out hover:scale-[115%]
+}
+.hover-scale-120 {
+  @apply transition-all duration-150 ease-in-out hover:scale-[120%]
+}
+.hover-scale-125 {
+  @apply transition-all duration-150 hover:scale-125 ease-in-out
+}
+.hover-scale-130 {
+  @apply transition-all duration-150 ease-in-out hover:scale-[130%]
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

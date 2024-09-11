@@ -70,7 +70,7 @@ const LittleCard: FC<cardProps> = async ({title, desc, href}) => {
     }
     return (
         <a href={`/${href}/${Newtitle}`}>
-            <div className=' cursor-pointer border-2 h-[calc(100%-4dvh)] border-white mb-[2dvh] px-[2dvw] flex flex-col items-center w-[28dvw] justify-center rounded-xl hover-scale-[105%] py-[3dvh] '>
+            <div className=' cursor-pointer border-2 h-[calc(100%-4dvh)] border-white mb-[2dvh] px-[2dvw] flex flex-col items-center w-[28dvw] justify-center rounded-xl hover-scale-105 py-[3dvh] '>
                 <h1 className='bg-white w-full text-black rounded-xl flex text-center justify-center px-[4dvw] py-[1dvh] mb-[1dvh] '>{title}</h1>
                 <div className='h-[25dvh] w-[15dvw] bg-center rounded-xl bg-no-repeat bg-cover' style={{ backgroundImage: `url('${array[0]}')`}}></div>
             </div>

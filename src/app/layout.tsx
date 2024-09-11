@@ -24,11 +24,11 @@ export default function RootLayout({
         <header className=" hidden lg:flex items-center justify-center ">
           <div className=" bg-slate-800  lg:flex mt-[2dvh] rounded-2xl w-[90dvw] flex items-center px-[2dvw] gap-[2dvw] h-[10dvh] ">
             <a href="/" className="font-semibold hover:underline text-3xl">
-              <img alt="Home page" src="https://i.imgur.com/CkTF2DP.png" className=" hover-scale-[130%] rounded-xl " width={70}></img>
+              <img alt="Home page" src="https://i.imgur.com/CkTF2DP.png" className=" hover-scale-130 rounded-xl " width={70}></img>
             </a>
-            <a href="/bar" className="font-semibold hover:underline hover-scale-[125%] text-3xl">Bar</a> 
-            <a href="/menu" className="font-semibold hover:underline hover-scale-[125%] text-3xl">Menu</a>  
-            <a href="/about" className="font-semibold hover:underline hover-scale-[125%] text-3xl">About us</a> 
+            <a href="/bar" className="font-semibold hover:underline hover-scale-125 text-3xl">Bar</a> 
+            <a href="/menu" className="font-semibold hover:underline hover-scale-125 text-3xl">Menu</a>  
+            <a href="/about" className="font-semibold hover:underline hover-scale-125 text-3xl">About us</a> 
           </div>  
         </header>
         {children}

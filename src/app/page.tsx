@@ -12,8 +12,8 @@ export default function Home() {
         <h1 className="text-black">Our interior</h1>
       </div>
       <div className="w-[70%] my-[5dvh] h-[550px] hidden lg:flex bg-black rounded-xl ">
-        <div style={{backgroundImage: `url('https://i.imgur.com/9Z4KEBO.jpeg')`}} className=" hover-scale-[110%] rounded-xl bg-no-repeat bg-contain basis-1/2 mr-[5dvw] h-full"></div>
-        <div style={{backgroundImage: `url('https://i.imgur.com/2iE2stH.jpeg')`}} className=" hover-scale-[110%] rounded-xl bg-no-repeat bg-contain basis-1/2 h-full"></div>
+        <div style={{backgroundImage: `url('https://i.imgur.com/9Z4KEBO.jpeg')`}} className=" hover-scale-110 rounded-xl bg-no-repeat bg-contain basis-1/2 mr-[5dvw] h-full"></div>
+        <div style={{backgroundImage: `url('https://i.imgur.com/2iE2stH.jpeg')`}} className=" hover-scale-110 rounded-xl bg-no-repeat bg-contain basis-1/2 h-full"></div>
       </div>
       <div className=" lg:hidden">
         <h1 className="text-center text-5xl mb-[2.5dvh]">Menu</h1>
