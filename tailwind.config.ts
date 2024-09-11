@@ -37,7 +37,7 @@ const config: Config = {
         return acc;
       }, {} as Record<string, Record<string, string>>);
 
-      addUtilities(utilities, ['responsive', 'hover']);
+      // addUtilities(utilities, ['responsive', 'hover']);
     }),
   ],
 };
