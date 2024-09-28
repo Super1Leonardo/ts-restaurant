@@ -32,10 +32,7 @@ export default function RootLayout({
           </div>  
         </header>
         {children}
-        <footer className="bg-slate-800 text-gray-400 hidden lg:flex justify-center flex-col w-full h-[15dvh] py-[2dvh] px-[5dvw] ">
-          <h4 className=" " >All rights reserved. Icon and trade mark belong to Savory Delights Corp. Do not use them without our agreement.</h4>
-          <div className="flex items-center justify-between w-full "><h2>Savory Delights™ </h2><h4>Contact us: savorydelights@gmail.com</h4></div>
-        </footer>
+
       </body>
     </html>
   );
